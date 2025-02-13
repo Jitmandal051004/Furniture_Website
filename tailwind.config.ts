@@ -1,5 +1,10 @@
 import type { Config } from "tailwindcss";
 
+const backgroundImages = Object.fromEntries(
+	Array.from({ length: 24 }, (_, i) => [`br${i + 1}`, `url("/img/br${i + 1}.png")`])
+);
+
+
 const config: Config = {
     darkMode: ["class"],
     content: [
@@ -12,7 +17,13 @@ const config: Config = {
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-				'hero-banner': 'url("/img/banner1.jpeg")'
+				'hero-banner': 'url("/img/banner1.jpeg")',
+				'CP1': 'url("/img/CP1.jpeg")',
+				'CP2': 'url("/img/CP2.jpeg")',
+				'CP3': 'url("/img/CP3.jpeg")',
+				'CP4': 'url("/img/CP4.jpeg")',
+				'abtBg': 'url("/img/abtbg.jpeg")',
+				...backgroundImages
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { NavLinks } from '@/constant'
+import { Links } from '@/constant'
 import { roboto_slab } from '@/app/fonts'
 import { Search } from 'lucide-react'
 
@@ -19,7 +19,7 @@ const Navbar = () => {
                     </div>
                 </Link>
                 <ul className= {`xl:flex hidden text-small gap-7 ${roboto_slab.className}`} >
-                    {NavLinks.map((link)=>(
+                    {Links.map((link)=>(
                         <Link className="p-3 rounded-md font-light " href={link.href} key={link.key}>
                             {link.text}
                         </Link>

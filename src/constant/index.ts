@@ -1,4 +1,4 @@
-export const NavLinks = [
+export const Links = [
     { href: '/', key: 'About us', text: 'About us'},
     { href: '/', key: 'Services', text: 'Services'},
     { href: '/', key: 'Featured Products', text: 'Featured Products'},
@@ -19,71 +19,81 @@ export const BrandsCompany = [
     'wing.png'
 ]
 
-export const UserRev = [
+export const Description = [
     {
-        'iconName' : 'CircleDollarSign',
-        'title': 'Original Products',
-        'desc': 'We provide money back guarantee if the product are not original'
+        'title': 'Made in India',
+        'images': "/img/desc1.jpeg",
+        'desc': "Furniture is proudly crafted in India, blending traditional craftsmanship with modern design. This allows us to draw from India's rich heritage and skilled artisans to create unique and high-quality pieces."
     },
     {
-        'iconName' : 'laugh',
-        'title': 'Satisfaction Guarantee',
-        'desc': "Exchange the product you've purchased if it doesn't fit on you"
+        'title': 'Complete Personalisation',
+        'images': "/img/desc2.jpeg",
+        'desc': "We offer our clients extensive personalisation options, allowing clients to customise every aspect of their furniture. From choosing materials and finishes to selecting intricate design details, each piece is tailored to meet individual preferences and requirements."
     },
     {
-        'iconName' : 'CircleDollarSign',
-        'title': 'New Arrival Everyday',
-        'desc': "We updates our collections almost everyday"
-    },
-    {
-        'iconName' : 'CircleDollarSign',
-        'title': 'Fast & Free Shipping',
-        'desc': "We offer fast and free shipping for our loyal customer"
-    }
-]
-
-export const CuratedP = [
-    {
-        'img': "bg-CP1.jpg",
-        "content": "Best Seller"
-    },
-    {
-        'img': "bg-CP4.jpg",
-        "content": "Shop Men"
-    },
-    {
-        'img': "bg-CP3.jpg",
-        "content": "Shop Women"
-    },
-    {
-        'img': "bg-CP5.jpg",
-        "content": "Shop Casual"
+        'title': 'Quality Assurance',
+        'images': "/img/desc3.jpeg",
+        'desc': "Our commitment to quality remains unwavered. We use premium materials, ensuring each piece meets the highest standards. Our attention to detail makes every piece not only beautiful but also built to last."
     },
 ]
 
-export const footerLinks = [
+export const ServicesP = [
     {
-        title: 'SHOP',
+        'img': "bg-CP1",
+        "content": "Custom Sofas",
+        'position': "bg-[50%_80%] bg-[length:912px_1035px]"
+    },
+    {
+        'img': "bg-CP2",
+        "content": "Curtain works",
+        'position': "bg-[50%_80%] bg-[length:912px_1035px]"
+    },
+    {
+        'img': "bg-CP3",
+        "content": "Wallpapers",
+        'position': "bg-cover"
+    },
+    {
+        'img': "bg-CP4",
+        "content": "Window Blinds",
+        'position': "bg-[length:912px_1035px] bg-[50%_80%]"
+    },
+]
+
+export const brands = Array.from({ length: 24 }, (_, i) => ({
+    bg: `bg-br${i + 1}`,
+}));
+
+export const footerMenu = [
+    {
+        title: 'Address',
         links: [
-            'All Collections',
-            'Winter Edition',
-            'Discount',
+            '291/A, 34th Cross Rd, 4th Block,',
+            'Jayanagar, Bengaluru, Karnataka',
+            '560011, India',
         ]
     },
     {
-        title: 'Company',
+        title: 'Email',
         links: [
-            'About Us',
-            'Contact',
-            'Affiliates',
+            'Snugfurnishing@gmail.com',
+            'Examplemail@gmail.com'
         ],
     },
     {
-        title: 'Support',
+        title: 'Whatsapp number',
         links: [
-            'FAQs',
-            'Cookie Policy',
-            'Terms of Use',
+            'Mon-Sat',
+            '11:00am-7:00pm',
+            '+91 95389 53904',
+        ],
+    },
+    {
+        title: 'Call us',
+        links: [
+            'Mon-Sat',
+            '11:00am-7:00pm',
+            '+91 95389 53904',
         ],
     }
 ]
