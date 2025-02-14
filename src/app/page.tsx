@@ -1,5 +1,4 @@
 import { About, Banner, Detail, Footbar, Navbar, Partners, Service, Testimonial, Textbar } from "@/components";
-import Image from "next/image";
 
 export default function Home() {
   return (

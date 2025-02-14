@@ -7,7 +7,10 @@ import About from "./About";
 import Partners from "./Partners";
 import Testimonial from "./Testimonial";
 import Footbar from "./Footbar";
-
+import Aboutbanner from "./Aboutbanner";
+import Team from "./Team";
+import Bg from "./Bg";
+import ContactForm from "./ContactForm";
 
 export{
     Navbar,
@@ -18,5 +21,9 @@ export{
     About,
     Partners,
     Testimonial,
-    Footbar
+    Footbar,
+    Aboutbanner,
+    Team,
+    Bg,
+    ContactForm
 }

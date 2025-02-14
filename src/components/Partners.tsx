@@ -1,7 +1,5 @@
 import { roboto_slab } from '@/app/fonts'
 import { brands } from '@/constant'
-import Link from 'next/link'
-import React from 'react'
 
 const Partners = () => {
     return (
@@ -14,13 +12,6 @@ const Partners = () => {
                     </span>
                 </div>
                 <div className="grid grid-cols-8 grid-rows-3 gap-4 w-full">
-                    {/* {Array.from({ length: 24 }).map((_, index) => (
-                        <div 
-                        key={index} 
-                        className={`bg-gray-300 flex items-center justify-center text-white h-[136px] `} >
-                        Item {index + 1}
-                        </div>
-                    ))} */}
                     {brands.map((br)=>(
                         <div className={`bg-gray-300 flex items-center justify-center text-white h-[136px] ${br.bg} bg-cover`}>
                         </div>

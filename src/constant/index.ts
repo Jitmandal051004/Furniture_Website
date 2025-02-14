@@ -1,9 +1,9 @@
 export const Links = [
-    { href: '/', key: 'About us', text: 'About us'},
+    { href: '/about', key: 'About us', text: 'About us'},
     { href: '/', key: 'Services', text: 'Services'},
     { href: '/', key: 'Featured Products', text: 'Featured Products'},
     { href: '/', key: 'Quality Standards', text: 'Quality Standards'},
-    { href: '/', key: 'Contact Us', text: 'Contact Us'}
+    { href: '/contactUs', key: 'Contact Us', text: 'Contact Us'}
 ]
 
 export const BrandsCompany = [

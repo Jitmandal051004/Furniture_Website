@@ -23,6 +23,8 @@ const config: Config = {
 				'CP3': 'url("/img/CP3.jpeg")',
 				'CP4': 'url("/img/CP4.jpeg")',
 				'abtBg': 'url("/img/abtbg.jpeg")',
+				'abtpgBg': 'url("/AboutBanner.jpeg")',
+				'bgBanner': 'url("/bg.png")',
 				...backgroundImages
 			},
 			borderRadius: {
