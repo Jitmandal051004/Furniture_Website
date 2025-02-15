@@ -1,11 +1,20 @@
 import { roboto_slab } from '@/app/fonts'
 
-const Textbar = () => {
+type custom = {
+    text : string,
+    bgColor : string
+} 
+
+const Textbar = ({text,bgColor}: custom) => {
     return (
-        <div className='w-full flex justify-center h-[12rem]'>
-            <p className={`${roboto_slab.className} flex justify-center items-center text-center text-pretty font-medium text-zinc-900 font-mono text-xl lg:text-2xl leading-[1.35]`}>
-                Snug brings bespoke comfort to your home with custom furnishings that blend style,<br /> function, and durability perfect for any space.
-            </p>
+        <div className={`w-full flex justify-center h-[12rem] ${bgColor}`}>
+            <div className="flex flex-col justify-center items-center text-center gap-4">
+                {text.split("<br />").map((line, index) => (
+                    <p key={index} className={`${roboto_slab.className} text-pretty font-medium text-zinc-900 font-mono text-xl lg:text-2xl leading-[1.35]`}>
+                        {line}
+                    </p>
+                ))}
+            </div>
         </div>
     )
 }

@@ -2,7 +2,7 @@ export const Links = [
     { href: '/about', key: 'About us', text: 'About us'},
     { href: '/', key: 'Services', text: 'Services'},
     { href: '/', key: 'Featured Products', text: 'Featured Products'},
-    { href: '/', key: 'Quality Standards', text: 'Quality Standards'},
+    { href: '/qualityNservice', key: 'Quality Standards', text: 'Quality Standards'},
     { href: '/contactUs', key: 'Contact Us', text: 'Contact Us'}
 ]
 
@@ -95,5 +95,65 @@ export const footerMenu = [
             '11:00am-7:00pm',
             '+91 95389 53904',
         ],
+    }
+]
+
+export const qnsabt = [
+    {
+        text: 'Quality Assured',
+        img: '/img/q1.png'
+    },
+    {
+        text: 'Social Resposibility',
+        img: '/img/q2.png'
+    },
+    {
+        text: 'Exceptional Maintainance ',
+        img: '/img/q3.png'
+    },
+    {
+        text: 'Sustainable Practice',
+        img: '/img/q4.png'
+    },
+    {
+        text: 'Sustainable Practice',
+        img: '/img/q4.png'
+    },
+    {
+        text: 'Sustainable Practice',
+        img: '/img/q4.png'
+    }
+]
+
+export const qnsDetail = [
+    {
+        img: '/img/qnsDet3.png',
+        bgColor: 'bg-white',
+        title:'MARTINDALE ABRASION RESISTANCE TEST',
+        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Semper auctor neque vitae tempus quam pellentesque.'
+    },
+    {
+        img: '/img/qnsDet1.png',
+        bgColor: 'bg-[#E5E4DF]',
+        title:'PILLING RESISTANCE TEST',
+        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Semper auctor neque vitae tempus quam pellentesque.'
+    },
+    {
+        img: '/img/qnsDet2.png',
+        bgColor: 'bg-white',
+        title:'TEAR STRENGTH TEST ',
+        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Semper auctor neque vitae tempus quam pellentesque.'
+    },
+    {
+        img: '/img/qnsDet3.png',
+        bgColor: 'bg-[#E5E4DF]',
+        title:'WASHING FASTNESS TEST',
+        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Semper auctor neque vitae tempus quam pellentesque.'
+    },
+    {
+        img: '/img/qnsDet2.png',
+        bgColor: 'bg-white',
+        title:'TEAR STRENGTH TEST ',
+        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Semper auctor neque vitae tempus quam pellentesque.'
     }
 ]

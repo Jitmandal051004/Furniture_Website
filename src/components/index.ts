@@ -11,6 +11,9 @@ import Aboutbanner from "./Aboutbanner";
 import Team from "./Team";
 import Bg from "./Bg";
 import ContactForm from "./ContactForm";
+import QNS from "./QNS";
+import QNSdetail from "./QNSdetail";
+import QNSimg from "./QNSimg";
 
 export{
     Navbar,
@@ -25,5 +28,8 @@ export{
     Aboutbanner,
     Team,
     Bg,
-    ContactForm
+    ContactForm,
+    QNS,
+    QNSdetail,
+    QNSimg
 }
