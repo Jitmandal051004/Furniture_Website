@@ -12,7 +12,7 @@ const Service = () => {
                 </div>
                 <div className="grid grid-cols-2 gap-4">
                     {ServicesP.map((ser,index)=>(
-                        <div className={`${ser.img} relative overflow-hidden bg-no-repeat bg-[50%_80%] ${ser.position} h-[520px] w-[792px] flex justify-center`}>
+                        <div key={index} className={`${ser.img} relative overflow-hidden bg-no-repeat bg-[50%_80%] ${ser.position} h-[520px] w-[792px] flex justify-center`}>
                             <div className="absolute inset-0 bg-black opacity-45"></div>
                             <div className={`${roboto_slab} flex relative flex-col items-center gap-3 text-white top-[376px]`}>
                                 <span className='font-semibold'>{ser.content}</span>

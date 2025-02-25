@@ -9,8 +9,8 @@ const Deatil = () => {
         <div className='w-full flex justify-center py-20 bg-[#E5E4DF]'>
             <div className="flex flex-col gap-3 w-[85%]">
                 <div className="flex flex-col gap-4 mb-10 lg:flex-row justify-between">
-                    {Description.map((desc)=>(
-                        <div className='items-center text-center lg:text-left lg:items-center lg:w-[20%] flex flex-col gap-8 justify-center'>
+                    {Description.map((desc, index)=>(
+                        <div key={index} className='items-center text-center lg:text-left lg:items-center lg:w-[20%] flex flex-col gap-8 justify-center'>
                             <div className='font-bold text-xl'>
                                 {desc.title}
                             </div>

@@ -6,8 +6,8 @@ const QNSdetail = () => {
     return (
         <div className=' py-20 flex justify-center'>
             <div className="flex justify-center items-center flex-col gap-10">
-                {qnsDetail.map((det)=>(
-                    <div className={`flex w-[800px] gap-10 justify-center bg-white border-b-2 pb-6`}>
+                {qnsDetail.map((det, index)=>(
+                    <div key={index} className={`flex w-[800px] gap-10 justify-center bg-white border-b-2 pb-6`}>
                         <div className="overflow-hidden flex items-center justify-center">
                             <Image 
                                 objectFit='cover'

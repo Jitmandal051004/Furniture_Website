@@ -13,7 +13,7 @@ const Aboutbanner = () => {
                     <span className='text-4xl font-normal'>About Snag</span>
                     <span>At SNUG, we specialize in crafting custom furnishing solutions that bring comfort, elegance, and personality to your space. From bespoke curtains and blinds to custom wallpapers, flooring solutions, and handcrafted sofas, our expert team ensures every piece is tailored to fit your style and needs.</span>
                     <span>With a focus on quality, craftsmanship, and attention to detail, we transform interiors into inviting, functional spaces that feel like home. Whether you are renovating, redecorating, or designing from scratch, SNUG is here to create furnishings that reflect your vision.</span>
-                    <span>Let's bring your space to life- customized, just for you</span>
+                    <span>Let&apos;s bring your space to life- customized, just for you</span>
                 </p>
             </div>
         </div>

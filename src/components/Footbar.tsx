@@ -14,8 +14,8 @@ const FooterColumn = ({title, links} : ColumnProps) => (
     <div className={`footer_column ${roboto_slab.className} text-lg flex-wrap w-[280px]`} >
         <h4 className='font-semibold mb-4 uppercase w-full'>{title}</h4>
         <ul className="flex flex-col gap-2 font-normal text-xs text-zinc-700">
-            {links.map((link) => 
-                <span className='text-sm'>
+            {links.map((link, index) => 
+                <span key={index} className='text-sm'>
                     {link}
                 </span>
             )}
@@ -42,8 +42,8 @@ const Footbar = () => {
                         </div>
                     </div>
                     <div className='flex flex-col lg:w-[175px] gap-4'>
-                        {Links.map((ftl)=>(
-                            <Link href={ftl.href}>
+                        {Links.map((ftl, index)=>(
+                            <Link key={index} href={ftl.href}>
                                 <span>
                                     {ftl.text}
                                 </span>
@@ -51,8 +51,8 @@ const Footbar = () => {
                         ))}
                     </div>
                     <div className="flex flex-wrap gap-6 mt-6 lg:mt-0 lg:gap-12">
-                        {footerMenu.map((ft)=>(
-                            <div className="flex-1 flex flex-col gap-4">
+                        {footerMenu.map((ft, index)=>(
+                            <div key={index} className="flex-1 flex flex-col gap-4">
                             <FooterColumn title={ft.title} links={ft.links}/>      
                         </div>
                         ))}
