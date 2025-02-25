@@ -6,7 +6,7 @@ export default function contactUs() {
         <div className="wrapper">
             <Navbar />
             <Bg />
-            <ContactForm tagLine="Contact Us" />
+            <ContactForm tagLine="Get a Quote" />
             <Footbar />
         </div>
     );

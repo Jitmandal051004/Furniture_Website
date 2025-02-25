@@ -14,6 +14,9 @@ import ContactForm from "./ContactForm";
 import QNS from "./QNS";
 import QNSdetail from "./QNSdetail";
 import QNSimg from "./QNSimg";
+import ProductList from "./ProductList";
+import ProductDropdowns from "./ProductDropdowns";
+import ProductDetail from "./ProductDetail";
 
 export{
     Navbar,
@@ -31,5 +34,8 @@ export{
     ContactForm,
     QNS,
     QNSdetail,
-    QNSimg
+    QNSimg,
+    ProductList,
+    ProductDropdowns,
+    ProductDetail
 }

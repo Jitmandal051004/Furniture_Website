@@ -38,7 +38,7 @@ const FormSchema = z.object({
     }),
 });
 
-export default function InputForm() {
+export default function InputForm({tagLine}:{tagLine:string}) {
     const form = useForm<z.infer<typeof FormSchema>>({
         resolver: zodResolver(FormSchema),
         defaultValues: {
@@ -62,7 +62,7 @@ export default function InputForm() {
             <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="w-[45%] my-20 flex flex-col gap-5">
                     <div className="flex justify-center flex-col font-light gap-3">
-                        <span className="text-3xl font-medium">Contact Us</span>
+                        <span className="text-3xl font-medium">{tagLine}</span>
                         <span className="text-sm">Send us a message about your details. Let us reach out to you.</span>
                     </div>
                     <div className="flex justify-between">
@@ -136,7 +136,7 @@ export default function InputForm() {
                             )}
                         />
                     </div>
-                    <Button type="submit">Submit</Button>
+                    <Button variant={"destructive"} className="w-[30%]" type="submit" >SEND MESSAGE</Button>
                 </form>
             </Form>
         </div>

@@ -1,7 +1,14 @@
 export const Links = [
     { href: '/about', key: 'About us', text: 'About us'},
-    { href: '/', key: 'Services', text: 'Services'},
-    { href: '/', key: 'Featured Products', text: 'Featured Products'},
+    { href: '/productPg', key: 'Services', text: 'Services'},
+    { href: '/productPg', key: 'Featured Products', text: 'Featured Products'},
+    { href: '/qualityNservice', key: 'Quality Standards', text: 'Quality Standards'},
+    { href: '/contactUs', key: 'Contact Us', text: 'Contact Us'}
+]
+
+export const navLinks = [
+    { href: '/about', key: 'About us', text: 'About us'},
+    { href: '/productPg', key: 'Our Products', text: 'Our Products'},
     { href: '/qualityNservice', key: 'Quality Standards', text: 'Quality Standards'},
     { href: '/contactUs', key: 'Contact Us', text: 'Contact Us'}
 ]
@@ -127,33 +134,146 @@ export const qnsabt = [
 
 export const qnsDetail = [
     {
-        img: '/img/qnsDet3.png',
-        bgColor: 'bg-white',
-        title:'MARTINDALE ABRASION RESISTANCE TEST',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Semper auctor neque vitae tempus quam pellentesque.'
-    },
-    {
         img: '/img/qnsDet1.png',
-        bgColor: 'bg-[#E5E4DF]',
-        title:'PILLING RESISTANCE TEST',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Semper auctor neque vitae tempus quam pellentesque.'
+        bgColor: 'bg-white',
+        title:'Commitment to Excellence',
+        desc:'At Snug, we prioritize top-quality furnishings that seamlessly combine design, comfort, and durability.'
     },
     {
         img: '/img/qnsDet2.png',
-        bgColor: 'bg-white',
-        title:'TEAR STRENGTH TEST ',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Semper auctor neque vitae tempus quam pellentesque.'
+        bgColor: 'bg-[#E5E4DF]',
+        title:'Premium Materials',
+        desc:'We source high-quality, sustainable materials to create long-lasting and stylish home solutions.'
     },
     {
         img: '/img/qnsDet3.png',
-        bgColor: 'bg-[#E5E4DF]',
-        title:'WASHING FASTNESS TEST',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Semper auctor neque vitae tempus quam pellentesque.'
+        bgColor: 'bg-white',
+        title:'Innovation & Detail',
+        desc:'We evolve with changing lifestyles, constantly refining our designs to meet modern needs.'
     },
     {
-        img: '/img/qnsDet2.png',
+        img: '/img/qnsDet4.png',
+        bgColor: 'bg-[#E5E4DF]',
+        title:'Attention to Detail',
+        desc:'Our products blend creativity and functionality, ensuring they enhance your space effortlessly.'
+    },
+    {
+        img: '/img/qnsDet5.png',
         bgColor: 'bg-white',
-        title:'TEAR STRENGTH TEST ',
-        desc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus semper eget duis at. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Semper auctor neque vitae tempus quam pellentesque.'
+        title:'Customer-Centric Approach',
+        desc: 'Your needs shape our designs, ensuring our products align with your lifestyle and preferences.'
+    },
+    {
+        img: '/img/qnsDet6.png',
+        bgColor: 'bg-white',
+        title:'Customer Satisfaction',
+        desc: 'We are dedicated to delivering comfort and quality that exceed expectations.'
+        
+    },
+    {
+        img: '/img/qnsDet7.png',
+        bgColor: 'bg-white',
+        title:'Customer Feedback Integration',
+        desc: 'We value your insights, using them to enhance our products and services continually.'
     }
 ]
+
+export const productList = [
+    {
+        img: '',
+        text: 'Beige Sofa'
+    },
+    {
+        img: '',
+        text: 'Moss Sofa'
+    },
+    {
+        img: '',
+        text: 'Palm Sofa'
+    },
+    {
+        img: '',
+        text: 'Beige Sofa'
+    },
+    {
+        img: '',
+        text: 'Beige Sofa'
+    },
+    {
+        img: '',
+        text: 'Moss Sofa'
+    },
+    {
+        img: '',
+        text: 'Palm Sofa'
+    },
+    {
+        img: '',
+        text: 'Beige Sofa'
+    }
+]
+
+export const productCategories: { 
+    category: string; 
+    items: { title: string; href: string }[]
+}[] = [
+    {
+        category: "All Products",
+        items:[
+        ]
+    },
+    {
+        category: "Sofa",
+        items:[
+        ]
+    },
+    {
+        category: "Rugs",
+        items:[
+        ]
+    },
+    {
+        category: "Wallpapers",
+        items:[
+        ]
+    },
+    {
+        category: "Curtains",
+        items: [
+            { title: "Blackout Curtain", href: "/indItem" },
+            { title: "Sheer curtain", href: "/indItem" },
+        ],
+    },
+    {
+        category: "Blinds",
+        items: [
+            { title: "Roman blinds", href: "/indItem" },
+            { title: "Zebra blinds", href: "/indItem" },
+            { title: "Roller Blinds", href: "/indItem" },
+            { title: "Wooden Blinds", href: "/indItem" },
+            { title: "Honeycomb Blinds", href: "/indItem" },
+        ],
+    },
+    {
+        category: "Flooring",
+        items: [
+            { title: "Wooden flooring", href: "/" },
+            { title: "Carpet flooring", href: "/" },
+        ],
+    },
+    {
+        category: "Curtain Tracks",
+        items: [
+            { title: "Curtain tracks", href: "/" },
+            { title: "Manual Curtain Track", href: "/" },
+            { title: "Motorised Curtain Track", href: "/" },
+        ],
+    },
+];
+
+export const thumbnails = [
+    "/img/CP1.jpeg",
+    "/img/CP2.jpeg",
+    "/img/CP3.jpeg",
+    "/img/CP4.jpeg",
+];
