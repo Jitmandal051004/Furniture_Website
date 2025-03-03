@@ -10,7 +10,9 @@ export default function qualityNservice() {
                 text = 'Snug crafts high-quality custom furnishings with premium materials, expert<br /> craftsmanship, and lasting durability'
                 bgColor="bg-[#E5E4DF]"
             />
-            <QNSimg />
+            <QNSimg 
+                img={"q"}
+            />
             <Footbar />
         </div>
     );
