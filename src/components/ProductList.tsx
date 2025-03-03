@@ -1,11 +1,12 @@
 import { productList } from "@/constant";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ProductList = () => {
     return (
         <div className="w-full flex justify-center items-center">
-            <div className="w-[80%] grid grid-cols-2 md:grid-cols-4 gap-6 p-4">
+            <Link href={"/indItems"} className="w-[80%] grid grid-cols-2 md:grid-cols-4 gap-6 p-4">
                 {productList.map((list, index) => (
                 <div key={index} className="flex flex-col gap-5 items-start bg-white overflow-hidden">
                     {/* <Image
@@ -19,7 +20,7 @@ const ProductList = () => {
                     <h3 className="text-lg font-normal">{list.text}</h3>
                 </div>
                 ))}
-            </div>
+            </Link>
         </div>
     );
 };

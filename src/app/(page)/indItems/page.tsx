@@ -7,7 +7,9 @@ export default function indItems() {
             <Navbar />
             <ProductDetail />
             <Testimonial />
-            <QNSimg />
+            <QNSimg 
+                img={"i"}
+            />
             <Footbar />
         </div>
     );
