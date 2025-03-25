@@ -1,4 +1,4 @@
-import { Footbar, Navbar, ProductDetail, QNSimg, Testimonial } from "@/components";
+import { CarouselPlugin, Footbar, Navbar, ProductDetail, QNSimg, Testimonial } from "@/components";
 
 
 export default function indItems() {
@@ -6,7 +6,8 @@ export default function indItems() {
         <div className="wrapper">
             <Navbar />
             <ProductDetail />
-            <Testimonial />
+            {/* <Testimonial /> */}
+            <CarouselPlugin />
             <QNSimg 
                 img={"i"}
             />

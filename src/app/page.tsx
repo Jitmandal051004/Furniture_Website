@@ -1,4 +1,4 @@
-import { About, Banner, Detail, Footbar, Navbar, Partners, Service, Testimonial, Textbar } from "@/components";
+import { About, Banner, CarouselPlugin, Detail, Footbar, Navbar, Partners, Service, Testimonial, Textbar } from "@/components";
 
 export default function Home() {
   return (
@@ -13,7 +13,8 @@ export default function Home() {
       <Service />
       <About />
       <Partners />
-      <Testimonial />
+      {/* <Testimonial /> */}
+      <CarouselPlugin />
       <Footbar />
     </div>
   );

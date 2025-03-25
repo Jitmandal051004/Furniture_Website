@@ -1,9 +1,8 @@
 import type { Config } from "tailwindcss";
 
 const backgroundImages = Object.fromEntries(
-	Array.from({ length: 24 }, (_, i) => [`br${i + 1}`, `url("/img/br${i + 1}.png")`])
+	Array.from({ length: 21 }, (_, i) => [`br${i + 1}`, `url("/partners/bg-br${i + 1}.png")`])
 );
-
 
 const config: Config = {
     darkMode: ["class"],

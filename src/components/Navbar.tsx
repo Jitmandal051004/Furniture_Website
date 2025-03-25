@@ -16,8 +16,8 @@ const Navbar = () => {
                     <div className="logo flex gap-3">
                         <Image
                             src="/snug.jpeg"
-                            width={160}
-                            height= {91.92}
+                            width={136}
+                            height= {76}
                             alt = "BrandLogo" 
                         />
                     </div>

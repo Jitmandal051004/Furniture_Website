@@ -1,12 +1,11 @@
 import Link from 'next/link'
-import { ServicesP } from '@/constant'
 import { roboto_slab } from '@/app/fonts'
 
 const Service = () => {
     return (
         <div className='w-full flex justify-center py-20'>
             <div className="w-[85%]">
-                <div className='font-semibold text-3xl mb-7 flex justify-between'>
+                <div className='font-semibold text-4xl mb-7 flex justify-between'>
                     <span className='font-medium text-3xl'>Our Services</span>
                     <span><Link className='hover:text-gray-500 border-b-2 border-b-black hover:border-b-gray-500' href={"/"}>Explore</Link></span>
                 </div>

@@ -10,8 +10,8 @@ const Deatil = () => {
             <div className="flex flex-col justify-center">
                 <div className="flex flex-col gap-20 mb-10 lg:flex-row justify-between">
                     {Description.map((desc, index)=>(
-                        <div key={index} className='text-start lg:items-start items-center gap-3 flex flex-col lg:gap-5 justify-center w-[356px]'>
-                            <div className='font-medium lg:text-start text-center w-3/4 text-xl'>
+                        <div key={index} className='text-start lg:items-start items-center gap-3 flex flex-col lg:gap-5 justify-start w-[356px]'>
+                            <div className= {`font-medium lg:text-start text-center text-2xl ${desc.titleWidth} h-[58px] mb-5`}>
                                 {desc.title}
                             </div>
                             <Image 

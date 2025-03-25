@@ -1,4 +1,4 @@
-import { Aboutbanner, Bg, Footbar, Navbar, Partners, Team, Testimonial } from "@/components";
+import { Aboutbanner, Bg, CarouselPlugin, Footbar, Navbar, Partners, Team, Testimonial } from "@/components";
 
 export default function about() {
     return (
@@ -8,7 +8,8 @@ export default function about() {
             <Team />
             <Bg />
             <Partners />
-            <Testimonial />
+            {/* <Testimonial /> */}
+            <CarouselPlugin />
             <Footbar />
         </div>
     );

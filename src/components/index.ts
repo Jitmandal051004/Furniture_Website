@@ -17,6 +17,7 @@ import QNSimg from "./QNSimg";
 import ProductList from "./ProductList";
 import ProductDropdowns from "./ProductDropdowns";
 import ProductDetail from "./ProductDetail";
+import CarouselPlugin from "./Carousel"; 
 
 export{
     Navbar,
@@ -37,5 +38,6 @@ export{
     QNSimg,
     ProductList,
     ProductDropdowns,
-    ProductDetail
+    ProductDetail,
+    CarouselPlugin
 }

@@ -29,16 +29,19 @@ export const BrandsCompany = [
 export const Description = [
     {
         'title': 'Made in India',
+        'titleWidth': "w-[30%]",
         'images': "/img/desc1.jpeg",
         'desc': "Furniture is proudly crafted in India, blending traditional craftsmanship with modern design. This allows us to draw from India's rich heritage and skilled artisans to create unique and high-quality pieces."
     },
     {
         'title': 'Complete Personalisation',
+        'titleWidth': "w-[47.5%]",
         'images': "/img/desc2.jpeg",
         'desc': "We offer our clients extensive personalisation options, allowing clients to customise every aspect of their furniture. From choosing materials and finishes to selecting intricate design details, each piece is tailored to meet individual preferences and requirements."
     },
     {
         'title': 'Quality Assurance',
+        'titleWidth': "w-[45%]",
         'images': "/img/desc3.jpeg",
         'desc': "Our commitment to quality remains unwavered. We use premium materials, ensuring each piece meets the highest standards. Our attention to detail makes every piece not only beautiful but also built to last."
     },

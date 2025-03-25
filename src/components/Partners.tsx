@@ -11,35 +11,35 @@ const Partners = () => {
                         At Snug, we believe that quality starts with the right materials. That is why we source our fabrics, wallpapers, flooring, and upholstery from trusted brands known for durability, aesthetics, and sustainability.
                     </span>
                 </div>
-                <div className="grid grid-cols-8 grid-rows-3 gap-4 w-full">
+                <div className="grid grid-cols-7 grid-rows-3 gap-6 w-full">
                     {/* {brands.map((br)=>(
-                        <div className={`bg-gray-300 flex items-center justify-center text-white h-[136px] ${br.bg} bg-cover`}>
+                        <div className={`bg-gray-300 flex items-center justify-center text-white h-[130px] ${br.bg} bg-cover`}>
                         </div>
                     ))} */}
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br1 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br2 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br3 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br4 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br5 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br6 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br7 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br8 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br9 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br10 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br11 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br12 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br13 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br14 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br15 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br16 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br17 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br18 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br19 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br20 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br21 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br22 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br23 bg-cover"></div>
-                        <div className="bg-gray-300 flex items-center justify-center text-white h-[136px] bg-br24 bg-cover"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br1 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br2 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br3 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br4 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br5 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br6 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br7 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br8 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br9 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br10 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br11 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br12 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br13 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br14 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br15 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br16 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br17 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br18 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br19 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br20 bg-center bg-contain bg-no-repeat"></div>
+                        <div className="bg-white flex items-center justify-center text-white h-[130px] bg-br21 bg-center bg-contain bg-no-repeat"></div>
+                        {/* <div className="bg-gray-300 flex items-center justify-center text-white h-[130px] bg-br22 bg-cover"></div>
+                        <div className="bg-gray-300 flex items-center justify-center text-white h-[130px] bg-br23 bg-cover"></div>
+                        <div className="bg-gray-300 flex items-center justify-center text-white h-[130px] bg-br24 bg-cover"></div> */}
                 </div>
             </div>
         </div>
