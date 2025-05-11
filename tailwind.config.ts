@@ -1,0 +1,85 @@
+import type { Config } from "tailwindcss";
+
+const backgroundImages = Object.fromEntries(
+	Array.from({ length: 21 }, (_, i) => [`br${i + 1}`, `url("/partners/bg-br${i + 1}.png")`])
+);
+
+const config: Config = {
+    darkMode: ["class"],
+    content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+	],
+	theme: {
+		extend: {
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+				'hero-banner': 'url("/img/banner1.jpeg")',
+				'CP1': 'url("/img/customSofa.jpg")',
+				'CP2': 'url("/img/curtainWork.jpg")',
+				'CP3': 'url("/img/wallpaper.jpg")',
+				'CP4': 'url("/img/blinds.jpg")',
+				'BP1': 'url("/img/SAN_1947.jpg")',
+				'BP2': 'url("/img/SAN_1976.jpg")',	
+				'BP3': 'url("/img/SAN_2010.jpg")',
+				'BP4': 'url("/img/SAN_2047.jpg")',
+				'BP5': 'url("/img/SAN_2100.jpg")',
+				'abtBg': 'url("/SAN_2059.jpg")',
+				'abtpgBg': 'url("/SAN_1934.jpg")',
+				'bgBanner': 'url("/bg.png")',
+				...backgroundImages
+			},
+			borderRadius: {
+				lg: 'var(--radius)',
+				md: 'calc(var(--radius) - 2px)',
+				sm: 'calc(var(--radius) - 4px)'
+			},
+			colors: {
+				background: 'hsl(var(--background))',
+				foreground: 'hsl(var(--foreground))',
+				card: {
+					DEFAULT: 'hsl(var(--card))',
+					foreground: 'hsl(var(--card-foreground))'
+				},
+				popover: {
+					DEFAULT: 'hsl(var(--popover))',
+					foreground: 'hsl(var(--popover-foreground))'
+				},
+				primary: {
+					DEFAULT: 'hsl(var(--primary))',
+					foreground: 'hsl(var(--primary-foreground))'
+				},
+				secondary: {
+					DEFAULT: 'hsl(var(--secondary))',
+					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				muted: {
+					DEFAULT: 'hsl(var(--muted))',
+					foreground: 'hsl(var(--muted-foreground))'
+				},
+				accent: {
+					DEFAULT: 'hsl(var(--accent))',
+					foreground: 'hsl(var(--accent-foreground))'
+				},
+				destructive: {
+					DEFAULT: 'hsl(var(--destructive))',
+					foreground: 'hsl(var(--destructive-foreground))'
+				},
+				border: 'hsl(var(--border))',
+				input: 'hsl(var(--input))',
+				ring: 'hsl(var(--ring))',
+				chart: {
+					'1': 'hsl(var(--chart-1))',
+					'2': 'hsl(var(--chart-2))',
+					'3': 'hsl(var(--chart-3))',
+					'4': 'hsl(var(--chart-4))',
+					'5': 'hsl(var(--chart-5))'
+				}
+			}
+		}
+	},
+	plugins: [require("tailwindcss-animate")],
+};
+export default config;
