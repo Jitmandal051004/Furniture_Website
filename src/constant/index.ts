@@ -3,14 +3,17 @@ export const Links = [
     { href: '/productPg', key: 'Services', text: 'Services'},
     { href: '/productPg', key: 'Featured Products', text: 'Featured Products'},
     { href: '/qualityNservice', key: 'Quality Standards', text: 'Quality Standards'},
-    { href: '/contactUs', key: 'Contact Us', text: 'Contact Us'}
+    { href: '/contactUs', key: 'Contact Us', text: 'Contact Us'},
+    { href: '/sustainable', key: 'Sustainable Practices', text: 'Sustainable Practices' },
+    { href: '/authPg', key: 'Admin', text: 'Admin' },
 ]
 
 export const navLinks = [
     { href: '/about', key: 'About us', text: 'About us'},
     { href: '/productPg', key: 'Our Products', text: 'Our Products'},
     { href: '/qualityNservice', key: 'Quality Standards', text: 'Quality Standards'},
-    { href: '/contactUs', key: 'Contact Us', text: 'Contact Us'}
+    { href: '/contactUs', key: 'Contact Us', text: 'Contact Us'},
+    { href: '/sustainable', key: 'Sustainable Practices', text: 'Sustainable Practices' },
 ]
 
 export const BrandsCompany = [

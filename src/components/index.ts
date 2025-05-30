@@ -18,6 +18,9 @@ import ProductList from "./ProductList";
 import ProductDropdowns from "./ProductDropdowns";
 import ProductDetail from "./ProductDetail";
 import CarouselPlugin from "./Carousel"; 
+import Admin from "./Admin";
+import Auth from "./Auth";
+import Sustainable from "./Sustainable";
 
 export{
     Navbar,
@@ -39,5 +42,8 @@ export{
     ProductList,
     ProductDropdowns,
     ProductDetail,
-    CarouselPlugin
+    CarouselPlugin,
+    Admin,
+    Auth,
+    Sustainable
 }
