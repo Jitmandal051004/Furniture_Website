@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const backgroundImages = Object.fromEntries(
-	Array.from({ length: 21 }, (_, i) => [`br${i + 1}`, `url("/partners/bg-br${i + 1}.png")`])
+	Array.from({ length: 21 }, (_, i) => [`br${i + 1}`, `url("/partners/bg-br${i + 1}.jpg")`])
 );
 
 const config: Config = {
@@ -28,7 +28,10 @@ const config: Config = {
 				'BP5': 'url("/img/SAN_2100.jpg")',
 				'abtBg': 'url("/SAN_2059.jpg")',
 				'abtpgBg': 'url("/SAN_1934.jpg")',
-				'bgBanner': 'url("/bg.png")',
+				'bgBanner': 'url("/bg.jpg")',
+				'founderImg': 'url("/img/photo_6215124540296644171_y.jpg")',
+				'ourVisionImg': 'url("/img/SAN_1976.jpg")',
+				'ourMissionImg': 'url("/img/SAN_1947.jpg")',
 				...backgroundImages
 			},
 			borderRadius: {
