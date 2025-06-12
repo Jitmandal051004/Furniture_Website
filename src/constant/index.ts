@@ -81,9 +81,12 @@ export const footerMenu = [
     {
         title: 'Address',
         links: [
-            '291/A, 34th Cross Rd, 4th Block,',
-            'Jayanagar, Bengaluru, Karnataka',
-            '560011, India',
+            '291/A, 34th cross, 9th main,',
+            'Jayanagar 4th block,', 
+            'Bangalore-560011',
+            '1807, AR Enclave,',
+            '5th block, 1st phase, HBR Layout,',
+            'Bangalore-560043'
         ]
     },
     {
